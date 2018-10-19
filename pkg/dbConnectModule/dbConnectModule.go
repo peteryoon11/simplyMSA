@@ -11,6 +11,17 @@ import (
 
 var db *sql.DB
 
+func Mysql_open() error {
+	var err error
+	//cache=shared&mode=rwc&loc=auto
+	var format string = "%s?%s"
+	file_name := fmt.Sprintf(format, "../simpleDB/simpledb.db", "cache=shared&mode=rwc&loc=auto")
+	//file_name := fmt.Sprintf(format, "../simpleDB/simpledb.db", "cache=shared")
+	db, err = sql.Open("sqlite3", file_name)
+	if nil != err {
+	}
+	return err
+}
 func Sqlite_Open() error {
 	var err error
 	//cache=shared&mode=rwc&loc=auto
