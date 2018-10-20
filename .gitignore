@@ -4,7 +4,9 @@
 *.dll
 *.so
 *.dylib
+# logging file
 *.log
+
 # Test binary, build with `go test -c`
 *.test
 

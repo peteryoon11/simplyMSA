@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 
+	"../pkg/dbConnectModule"
 	"../pkg/structModule"
 	"../pkg/validationModule"
 	"github.com/julienschmidt/httprouter"
