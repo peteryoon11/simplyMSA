@@ -61,7 +61,7 @@ func main() {
 	//router.POST("/getAllBook", getAllBook)
 	//router.POST(GetBookInfo.Uri(), getMyBook)
 	//router.POST(GetBookInfo.URI(), getMyBook)
-
+	router.GET("/getMyBook", getMyBook)
 	router.POST("/getMyBook", getMyBook)
 
 	//router.POST("/getUserInfo", getUser)
