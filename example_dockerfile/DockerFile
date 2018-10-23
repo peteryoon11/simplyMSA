@@ -1,0 +1,9 @@
+From centos
+MAINTAINER test dev <test@dev.com>
+run yum install epel-release
+run yum install nginx 
+VOLUME [ "/data" ,"/usr/local/bin/nginx"]
+
+WORKDIR /etc/nginx
+
+CMD [ "nginx" ]

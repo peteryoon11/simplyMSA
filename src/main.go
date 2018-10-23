@@ -61,8 +61,16 @@ func main() {
 	//router.POST("/getAllBook", getAllBook)
 	//router.POST(GetBookInfo.Uri(), getMyBook)
 	//router.POST(GetBookInfo.URI(), getMyBook)
+
+	/* Create = PUT with a new URI
+	POST to a base URI returning a newly created URI
+	Read   = GET
+	Update = PUT with an existing URI
+	Delete = DELETE
+	*/
 	router.GET("/getMyBook", getMyBook)
 	router.POST("/getMyBook", getMyBook)
+	router.DELETE("/getMyBook", getMyBook)
 
 	//router.POST("/getUserInfo", getUser)
 	//router.POST("/getUserInfo/:test", getUser)
