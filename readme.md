@@ -1,6 +1,7 @@
 ## 간단한 MSA 를 만들기 위해서 만든 저장소 입니다. 
 *  기본적인 boiler plate 를 만들고 있습니다.
 *  서버 사이의 관계와 데이터 흐름 그리고 oauth 관련 부분을 찾는 중입니다.
+
 ### 아니.. 이거.. stop
 * 작은 것부터 시작하자
 1. 우선 crud 에 맞는 api 베이스를 만든다.
@@ -25,3 +26,4 @@
 * db 부분? 
     * mysql , mongodb , redis 는 써 보자 
     * mongodb, redis 위주로 추가해 보기?
+* terraform 이랑 같이 쓰는 kong api gateway 부분이 있는데 해당 부분을 참조 해서 만들어 볼까?
