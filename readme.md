@@ -26,6 +26,9 @@
 * db 부분? 
     * mysql , mongodb , redis 는 써 보자 
     * mongodb, redis 위주로 추가해 보기?
+        * key value store 를 써야 할 부분이 있을까? 
+        * 로컬에 저장하는 방법을 사용해 볼수 있을까?
+            * vote 하는 부분에 대해서 
     * docker 를 이용해서 인프라를 만들때는 커널을  공유하는 부분에 넣어서 
 ## 추가로 알아볼 부분 
 * terraform 이랑 같이 쓰는 kong api gateway 부분이 있는데 해당 부분을 참조 해서 만들어 볼까?
