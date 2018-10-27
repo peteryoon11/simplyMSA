@@ -27,6 +27,7 @@
     * mysql , mongodb , redis 는 써 보자 
     * mongodb, redis 위주로 추가해 보기?
     * docker 를 이용해서 인프라를 만들때는 커널을  공유하는 부분에 넣어서 
+## 추가로 알아볼 부분 
 * terraform 이랑 같이 쓰는 kong api gateway 부분이 있는데 해당 부분을 참조 해서 만들어 볼까?
 * GCP에서 응용할 만한 부분이 있는지 찾아보자 
 * terraform 에서 응용할 만한 부분이 있는지 찾아보자
