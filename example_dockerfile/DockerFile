@@ -5,5 +5,9 @@ run yum install nginx
 VOLUME [ "/data" ,"/usr/local/bin/nginx"]
 
 WORKDIR /etc/nginx
+WORKDIR /root
+RUN touch hello.txt
 
+WORKDIR /tmp
+RUN touch hello.txt
 CMD [ "nginx" ]
