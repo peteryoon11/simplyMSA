@@ -28,11 +28,17 @@ func main() {
 		Delete = DELETE
 	*/
 	router.GET("/BookInfo", HttpMethodModule.GetMyBook)
-	// 조회만 
+	// 조회만
+
 	router.PUT("/BookInfo", HttpMethodModule.GetMyBook)
 	// 책 추가
+
 	router.POST("/getMyBook", HttpMethodModule.GetMyBook)
+	// 책 정보 변경 / update
+
 	router.DELETE("/getMyBook", HttpMethodModule.GetMyBook)
+
+	// 책 삭제
 
 	//router.POST("/getUserInfo", getUser)
 	//router.POST("/getUserInfo/:test", getUser)
