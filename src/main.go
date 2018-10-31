@@ -27,16 +27,20 @@ func main() {
 		Update = PUT with an existing URI
 		Delete = DELETE
 	*/
-	router.GET("/BookInfo", HttpMethodModule.GetMyBook)
+
+	router.PUT("/Book", HttpMethodModule.GetMyBook)
+	// 최초에 등록? 할때
+
+	router.GET("/Book", HttpMethodModule.GetMyBook)
 	// 조회만
 
-	router.PUT("/BookInfo", HttpMethodModule.GetMyBook)
+	router.PUT("/Book", HttpMethodModule.GetMyBook)
 	// 책 추가
 
-	router.POST("/getMyBook", HttpMethodModule.GetMyBook)
+	router.POST("/Book", HttpMethodModule.GetMyBook)
 	// 책 정보 변경 / update
 
-	router.DELETE("/getMyBook", HttpMethodModule.GetMyBook)
+	router.DELETE("/Book", HttpMethodModule.GetMyBook)
 
 	// 책 삭제
 
