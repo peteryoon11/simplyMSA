@@ -69,7 +69,8 @@ func daemonmain() {
 	)
 
 	var exit bool = false
-
+	var exit2 bool = true
+	fmt.Println(exit2) // test for commit message
 	IntervalValue = time.Second * time.Duration(5)
 
 	fmt.Println("  Interval timer = ", IntervalValue)
