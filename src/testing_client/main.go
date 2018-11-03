@@ -6,6 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"./pkg/RequestModule"
+
 	"github.com/kardianos/service"
 )
 
@@ -86,6 +88,7 @@ func daemonmain() {
 
 			IntervalValueChan = time.NewTimer(IntervalValue).C
 			fmt.Println("now called")
+			RequestModule.ProtoTypeFunc()
 			break
 
 		case <-exitChain:
