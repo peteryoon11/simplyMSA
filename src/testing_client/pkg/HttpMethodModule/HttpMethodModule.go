@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"../dbConnectModule"
-	"../structModule"
-	"../validationModule"
+	//"../dbConnectModule"
+	//"../structModule"
+	//"../validationModule"
 	"github.com/julienschmidt/httprouter"
 )
 
