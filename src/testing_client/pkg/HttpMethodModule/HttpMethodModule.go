@@ -25,13 +25,13 @@ func GetMyBook(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 	test, err := ioutil.ReadAll(r.Body)
 
 	//	var testmem Member
-	var testAuth structModule.ValAPIKey
+	//	var testAuth structModule.ValAPIKey
 
-	err = json.Unmarshal(test, &testAuth)
+	//	err = json.Unmarshal(test, &testAuth)
 
-	var respondUser structModule.Response
+	//	var respondUser structModule.Response
 
-	var tempBookArray []structModule.EBookInfo
+	//	var tempBookArray []structModule.EBookInfo
 
 	fmt.Println(testAuth)
 
